@@ -1,0 +1,33 @@
+{
+	"name": "unit-testing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"deploy": "npm t && npm run build",
+		"build": "webpack",
+		"test": "jest"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.7.5",
+		"@babel/plugin-proposal-class-properties": "^7.7.4",
+		"@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+		"@babel/preset-env": "^7.7.6",
+		"@babel/preset-typescript": "^7.7.4",
+		"@types/jest": "^24.0.23",
+		"@types/node": "^12.12.17",
+		"@typescript-eslint/eslint-plugin": "^2.11.0",
+		"@typescript-eslint/parser": "^2.11.0",
+		"babel-loader": "^8.0.6",
+		"eslint": "^6.7.2",
+		"eslint-plugin-jest": "^23.1.1",
+		"jest": "^24.9.0",
+		"ts-jest": "^24.2.0",
+		"typescript": "^3.7.3",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10"
+	},
+	"dependencies": {}
+}
